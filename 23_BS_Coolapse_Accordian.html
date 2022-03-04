@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/fontawesome_5.8.1.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BS Collapse & Accordion</a>
+    </nav>
+
+
+    <!-- ********************* Start Here *********************-->
+
+    <div class="container mt-5">
+
+        <!--<button class="btn btn-info" data-toggle="collapse" data-target="#coll">Click Me</button>
+
+        <div class="collapse" id="coll">
+            <div class="card">
+                <div class="card-body bg-primary text-white">
+                    <h3>BS Collapse</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum corrupti consequuntur cum alias. Aut rerum autem aliquam vero facere rem quae exercitationem veritatis obcaecati, corrupti laboriosam ullam sapiente iure eos, necessitatibus eum, voluptate quam deserunt laudantium molestias! Aut, id blanditiis?</p>
+                    
+                </div>
+            </div>
+        </div>-->
+
+        <!--BS Accordion-->
+        <div class="accordion" id="ques-acco">
+
+            <!--Que 1-->
+            <div class="card">
+                <div class="card-header bg-info text-white" data-toggle="collapse" data-target="#que-01">
+                     <h3>What is Bootstrap?</h3>
+                </div>
+                <div class="collapse" id="que-01" data-parent="#ques-acco">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci deleniti praesentium itaque voluptate, nihil veritatis earum rerum labore pariatur vel necessitatibus hic est ipsa consequatur atque nisi, officiis, voluptates sed quam delectus? Tenetur repudiandae ullam quia, et facilis quisquam sed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-success text-white" data-toggle="collapse" data-target="#que-02">
+                     <h3>What is Material CSS?</h3>
+                </div>
+                <div class="collapse" id="que-02" data-parent="#ques-acco">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci deleniti praesentium itaque voluptate, nihil veritatis earum rerum labore pariatur vel necessitatibus hic est ipsa consequatur atque nisi, officiis, voluptates sed quam delectus? Tenetur repudiandae ullam quia, et facilis quisquam sed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-warning text-white" data-toggle="collapse" data-target="#que-03">
+                     <a href="#"><h5 class="text-white">What is HTML?</h5></a>
+                </div>
+                <div class="collapse" id="que-03" data-parent="#ques-acco">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci deleniti praesentium itaque voluptate, nihil veritatis earum rerum labore pariatur vel necessitatibus hic est ipsa consequatur atque nisi, officiis, voluptates sed quam delectus? Tenetur repudiandae ullam quia, et facilis quisquam sed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-secondary text-white" data-toggle="collapse" data-target="#que-04">
+                     <h3>What is Angular CSS?</h3>
+                </div>
+                <div class="collapse" id="que-04" data-parent="#ques-acco">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci deleniti praesentium itaque voluptate, nihil veritatis earum rerum labore pariatur vel necessitatibus hic est ipsa consequatur atque nisi, officiis, voluptates sed quam delectus? Tenetur repudiandae ullam quia, et facilis quisquam sed.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ********************* End Here *********************-->
+
+
+<!--Bootstrap js file-->
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script> 
+<script src="js/bootstrap.js"></script>
+<script src="js/mdb.js"></script>     
+</body>
+</html>
